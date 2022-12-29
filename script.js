@@ -61,6 +61,6 @@ Bonus: Replace the vowels with another character and console.log the result
  */
 
 let word = prompt("Enter a word : ")
-let replaced = /[aeiou]/gi
-let result = word.replace(replaced, "*")
+let replacedVowels = /[aeiou]/gi
+let result = word.replace(replacedVowels, "*")
 console.log(result)
