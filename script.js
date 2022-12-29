@@ -5,13 +5,13 @@ Given the years two people were born, find the date when the younger one is exac
 Notes: The dates are given in the format YYYY
  */
 
-let year1 = prompt("Enter the year of older : ")
-let year2 = prompt("Enter the year of younger : ")
+let year1 = 2000
+let year2 = 2010
 
 let ageDifference = year2 - year1
 let yearHalfAge = ageDifference / 2
 let halfAgeYear = year2 + yearHalfAge
-alert(halfAgeYear)
+console.log(halfAgeYear)
 
 /**
  * Exercise 2 : Zip Codes
